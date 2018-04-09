@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ListElement from './ListElement';
 
-class Switcher extends Component {
-
+class Switcher extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,10 +16,8 @@ class Switcher extends Component {
         return <ListElement><a href={link}>{ app.name }</a></ListElement>
       }
     );
-
     return  <ul>{ appList }</ul>
   }
-
 }
 
 export default Switcher;

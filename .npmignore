@@ -1,4 +1,7 @@
 .babelrc
-lib
+src
 package-lock.json
 .eslintrc
+webpack.config.js
+.gitignore
+.git
